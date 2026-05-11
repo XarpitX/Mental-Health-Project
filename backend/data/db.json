@@ -1,0 +1,732 @@
+{
+  "users": [
+    {
+      "id": "usr_0eeeff4d-5cb0-436b-b275-0216374752cd",
+      "name": "Test Admin",
+      "email": "admin@test.com",
+      "password": "$2a$10$qKcBJ3GpCsTc3gosHQnF4eZD5CBZdhymuCXRdI6lBNa.Uc2ZVj8xe",
+      "role": "admin",
+      "isOnline": true,
+      "lastActive": "2026-04-25T10:23:30.072Z",
+      "createdAt": "2026-04-25T10:23:30.072Z",
+      "updatedAt": "2026-04-25T10:23:30.072Z"
+    },
+    {
+      "id": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "name": "aryan",
+      "email": "aryan@gmail.com",
+      "password": "$2a$10$kJy7JEAAz4YEgHeVwj9r/.gBmdfesBpRegShkcEeMSZFpgHuHTPcG",
+      "role": "user",
+      "isOnline": false,
+      "lastActive": "2026-05-03T09:48:53.993Z",
+      "createdAt": "2026-04-25T10:25:22.163Z",
+      "updatedAt": "2026-05-03T09:48:53.994Z"
+    },
+    {
+      "id": "usr_5e484e8d-3979-4277-bf18-a75aa146c12d",
+      "name": "aryann",
+      "email": "aryann@gmail.com",
+      "password": "$2a$10$5l3RnQP..ASBz.nSrF0xeOlgmzcdbPBBzRVwQBagsA4F0fBM5QJVS",
+      "role": "user",
+      "isOnline": false,
+      "lastActive": "2026-04-25T11:22:37.122Z",
+      "createdAt": "2026-04-25T10:27:26.009Z",
+      "updatedAt": "2026-04-25T11:22:37.088Z"
+    },
+    {
+      "id": "usr_82dba099-3c97-4d40-a637-0a96f3d088d6",
+      "name": "aryann",
+      "email": "aryannn@gmail.com",
+      "password": "$2a$10$OkkbNutV4N/pXwvEU0lvBelt6jM3V4z6SY0WVxxK8Y.yBQ.dN/9Q6",
+      "role": "admin",
+      "isOnline": false,
+      "lastActive": "2026-05-03T09:49:51.626Z",
+      "createdAt": "2026-04-25T10:29:21.119Z",
+      "updatedAt": "2026-05-03T09:49:51.626Z"
+    },
+    {
+      "id": "usr_93066652-19fd-4ca6-9c2f-7bd2d05d68ae",
+      "name": "nikhil",
+      "email": "nikhil@gmail.com",
+      "password": "$2a$10$If9p65YZMEJqso/ARZ8kJOsej3bhS6TeHxetBows1bM60x5I7P3x6",
+      "role": "consultant",
+      "isOnline": false,
+      "lastActive": "2026-05-03T09:50:22.350Z",
+      "createdAt": "2026-04-25T10:30:27.569Z",
+      "updatedAt": "2026-05-03T09:50:22.350Z"
+    },
+    {
+      "id": "usr_ab61ac0e-6aa2-479f-b0ca-d89c28db4963",
+      "name": "sachin",
+      "email": "sachin@gmail.com",
+      "password": "$2a$10$xU1wH0JigWv.0bHmh2Iw5e0atOBSllQltkwOGk1j5DfzQhRUmnOeG",
+      "role": "user",
+      "isOnline": false,
+      "lastActive": "2026-04-25T12:04:08.595Z",
+      "createdAt": "2026-04-25T12:03:54.975Z",
+      "updatedAt": "2026-04-25T12:04:08.595Z"
+    },
+    {
+      "id": "usr_36486a2a-a33d-4591-a446-683ac6fb3e9d",
+      "name": "ravi",
+      "email": "ravi@gmail.com",
+      "password": "$2a$10$.IMpZz6qSxWz/ixMzJA3FueVdcNJfqRyitdxS5ITrNaXSow0Genb6",
+      "role": "consultant",
+      "isOnline": false,
+      "lastActive": "2026-04-25T12:08:53.761Z",
+      "createdAt": "2026-04-25T12:05:03.382Z",
+      "updatedAt": "2026-04-25T12:08:53.761Z"
+    },
+    {
+      "id": "usr_9fd46c49-5d9b-4aeb-aa77-dc8023bf3a7a",
+      "name": "Amritesh",
+      "email": "roy.amritesh2003@gmail.com",
+      "password": "$2a$10$lBOyg7hOLVOhZ5HgDxXc3eeIjRSEbRYhIOunxB.fsLpUjZ1fuApPy",
+      "role": "user",
+      "isOnline": true,
+      "lastActive": "2026-05-07T11:26:54.536Z",
+      "createdAt": "2026-05-06T11:25:25.486Z",
+      "updatedAt": "2026-05-06T11:37:27.757Z"
+    }
+  ],
+  "moods": [
+    {
+      "id": "mood_333eed59-869b-49b3-b9dc-7fd1a6c60fa4",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "happy",
+      "score": 5,
+      "date": "2026-04-25T00:00:00.000Z",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:36:33.871Z",
+      "updatedAt": "2026-04-25T10:36:33.871Z"
+    },
+    {
+      "id": "mood_770aa503-da8a-45fd-a8e5-fc121e8e0fb6",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "happy",
+      "score": 5,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:47:48.200Z",
+      "updatedAt": "2026-04-25T10:47:48.200Z"
+    },
+    {
+      "id": "mood_7c48df82-1b26-45fa-8bce-5dfdc5189039",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "sad",
+      "score": 5,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:47:52.514Z",
+      "updatedAt": "2026-04-25T10:47:52.514Z"
+    },
+    {
+      "id": "mood_f585a57e-1cbb-4f5b-aed4-8e8d5ce3548c",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "anxious",
+      "score": 5,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:47:55.618Z",
+      "updatedAt": "2026-04-25T10:47:55.618Z"
+    },
+    {
+      "id": "mood_64510806-3fd9-4546-9a67-0569bb6d592d",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "stressed",
+      "score": 5,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:47:58.428Z",
+      "updatedAt": "2026-04-25T10:47:58.428Z"
+    },
+    {
+      "id": "mood_5d75f960-cadc-44d0-aa74-0b02b21db4e8",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "stressed",
+      "score": 2,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:48:03.691Z",
+      "updatedAt": "2026-04-25T10:48:03.691Z"
+    },
+    {
+      "id": "mood_ce886bf2-2d6e-4d6a-b5ca-1b736d8e44dc",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "stressed",
+      "score": 8,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:48:08.147Z",
+      "updatedAt": "2026-04-25T10:48:08.147Z"
+    },
+    {
+      "id": "mood_1378b861-ec90-48d4-923b-62f613375338",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "stressed",
+      "score": 3,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:48:11.459Z",
+      "updatedAt": "2026-04-25T10:48:11.459Z"
+    },
+    {
+      "id": "mood_32dc5c02-2216-4e4c-a37b-b67fb0725bce",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "stressed",
+      "score": 2,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:48:15.659Z",
+      "updatedAt": "2026-04-25T10:48:15.659Z"
+    },
+    {
+      "id": "mood_db37cb34-0ad6-4cbf-989c-f493567776c2",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "stressed",
+      "score": 7,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:48:18.675Z",
+      "updatedAt": "2026-04-25T10:48:18.675Z"
+    },
+    {
+      "id": "mood_9d97baa3-422d-4049-8832-32516ed2b65f",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "stressed",
+      "score": 2,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:48:23.623Z",
+      "updatedAt": "2026-04-25T10:48:23.623Z"
+    },
+    {
+      "id": "mood_7e6a7065-6962-4ad6-936e-10f875f9237e",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "stressed",
+      "score": 9,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:48:26.163Z",
+      "updatedAt": "2026-04-25T10:48:26.163Z"
+    },
+    {
+      "id": "mood_dc2fe0f9-c1c6-43a1-bef0-3b4044ed2bc2",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "stressed",
+      "score": 1,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:48:28.276Z",
+      "updatedAt": "2026-04-25T10:48:28.276Z"
+    },
+    {
+      "id": "mood_f805a6ee-a8e8-48b0-af4a-912885f2b729",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "stressed",
+      "score": 7,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:48:32.120Z",
+      "updatedAt": "2026-04-25T10:48:32.120Z"
+    },
+    {
+      "id": "mood_42e9610f-b634-44e3-b5a8-b9446e65251d",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "stressed",
+      "score": 5,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:48:37.742Z",
+      "updatedAt": "2026-04-25T10:48:37.742Z"
+    },
+    {
+      "id": "mood_68118227-8124-47ae-a163-f181aeb46918",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "stressed",
+      "score": 8,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-25T10:48:39.964Z",
+      "updatedAt": "2026-04-25T10:48:39.964Z"
+    },
+    {
+      "id": "mood_04c99081-4a7b-4d41-b101-909108fec697",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "stressed",
+      "score": 8,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "i am fealing like i am workin a lot",
+      "source": "journal",
+      "createdAt": "2026-04-25T10:49:12.268Z",
+      "updatedAt": "2026-04-25T10:49:12.268Z"
+    },
+    {
+      "id": "mood_d98e4d2b-ce18-42ea-819b-095dec09b3f6",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "happy",
+      "score": 7,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "i am feealinf better",
+      "source": "journal",
+      "createdAt": "2026-04-25T10:52:27.449Z",
+      "updatedAt": "2026-04-25T10:52:27.449Z"
+    },
+    {
+      "id": "mood_79670fd3-99cb-4c19-b068-f9166298e19c",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "happy",
+      "score": 7,
+      "date": "2026-04-25T00:00:00.000Z",
+      "note": "i am feeling good",
+      "source": "journal",
+      "createdAt": "2026-04-25T11:37:20.898Z",
+      "updatedAt": "2026-04-25T11:37:20.898Z"
+    },
+    {
+      "id": "mood_70b8e590-41c9-4118-986e-4c9c49fbf46e",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "anxious",
+      "score": 4,
+      "date": "2026-04-25T11:39:47.357Z",
+      "source": "chat",
+      "createdAt": "2026-04-25T11:39:47.357Z",
+      "updatedAt": "2026-04-25T11:39:47.357Z"
+    },
+    {
+      "id": "mood_213d44da-b79f-4c3f-a1b2-8b583162c916",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "stressed",
+      "score": 4,
+      "date": "2026-04-25T11:40:17.666Z",
+      "source": "chat",
+      "createdAt": "2026-04-25T11:40:17.666Z",
+      "updatedAt": "2026-04-25T11:40:17.666Z"
+    },
+    {
+      "id": "mood_a9e0d0fd-3ebc-4a4b-9884-8293916f9f46",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "happy",
+      "score": 7,
+      "date": "2026-04-26T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-26T06:01:16.604Z",
+      "updatedAt": "2026-04-26T06:01:16.604Z"
+    },
+    {
+      "id": "mood_09cdb0ec-9bb2-4070-97d4-e838fe66ec97",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "happy",
+      "score": 2,
+      "date": "2026-04-26T00:00:00.000Z",
+      "note": "",
+      "source": "manual",
+      "createdAt": "2026-04-26T06:01:18.375Z",
+      "updatedAt": "2026-04-26T06:01:18.375Z"
+    },
+    {
+      "id": "mood_9ca66560-fd4d-48b6-be40-1b36b0976d0a",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "sad",
+      "score": 5,
+      "date": "2026-05-03T00:00:00.000Z",
+      "note": "Often I used to love going out but now I just stay home and that worries me",
+      "source": "journal",
+      "nlpPredictedStatus": "Depression",
+      "nlpConfidence": 97.78,
+      "nlpSource": "model",
+      "createdAt": "2026-05-03T09:33:43.099Z",
+      "updatedAt": "2026-05-03T09:33:43.099Z"
+    },
+    {
+      "id": "mood_32e2edea-0925-4858-8d66-584dcbc30640",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "sad",
+      "score": 4,
+      "date": "2026-05-03T00:00:00.000Z",
+      "note": "Often I used to love going out but now I just stay home and that worries me",
+      "source": "journal",
+      "nlpPredictedStatus": "Depression",
+      "nlpConfidence": 97.78,
+      "nlpSource": "model",
+      "createdAt": "2026-05-03T09:39:58.695Z",
+      "updatedAt": "2026-05-03T09:39:58.695Z"
+    },
+    {
+      "id": "mood_533e919b-b7ab-4d44-8af4-e97de5f578d4",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "sad",
+      "score": 4,
+      "date": "2026-05-03T00:00:00.000Z",
+      "note": "I notice that Everything feels like too much effort",
+      "source": "journal",
+      "nlpPredictedStatus": "Depression",
+      "nlpConfidence": 99.13,
+      "nlpSource": "model",
+      "createdAt": "2026-05-03T09:41:55.894Z",
+      "updatedAt": "2026-05-03T09:41:55.894Z"
+    },
+    {
+      "id": "mood_c8bd6b2b-f60a-4732-90d8-1a7cfbdad5aa",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "moodType": "Depression",
+      "score": 3,
+      "date": "2026-05-03T00:00:00.000Z",
+      "note": "I notice that Everything feels like too much effort",
+      "source": "journal",
+      "nlpPredictedStatus": "Depression",
+      "nlpConfidence": 99.13,
+      "nlpSource": "model",
+      "createdAt": "2026-05-03T09:47:01.328Z",
+      "updatedAt": "2026-05-03T09:47:01.328Z"
+    },
+    {
+      "id": "mood_7a477d4f-1ed3-4bd0-a0d7-a3fa35f0dd3f",
+      "userId": "usr_9fd46c49-5d9b-4aeb-aa77-dc8023bf3a7a",
+      "moodType": "Anxiety",
+      "score": 4,
+      "date": "2026-05-06T00:00:00.000Z",
+      "note": "Often My heart is racing and I can't calm down lately.",
+      "source": "journal",
+      "nlpPredictedStatus": "Anxiety",
+      "nlpConfidence": 98.02,
+      "nlpSource": "model",
+      "createdAt": "2026-05-06T11:40:12.488Z",
+      "updatedAt": "2026-05-06T11:40:12.488Z"
+    },
+    {
+      "id": "mood_f2ae474f-c105-4fbc-ae5e-dd76d6e743cb",
+      "userId": "usr_9fd46c49-5d9b-4aeb-aa77-dc8023bf3a7a",
+      "moodType": "Normal",
+      "score": 8,
+      "date": "2026-05-06T00:00:00.000Z",
+      "note": "now i am feeling sad and depressing",
+      "source": "journal",
+      "nlpPredictedStatus": "Normal",
+      "nlpConfidence": 47.21,
+      "nlpSource": "model",
+      "createdAt": "2026-05-06T17:44:39.925Z",
+      "updatedAt": "2026-05-06T17:44:39.925Z"
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat_4fb4c99d-3e2e-446d-af2a-66f9a6a852a9",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "title": "I've been feeling anxious lately",
+      "messages": [
+        {
+          "id": "msg_b67c40b4-676d-49c8-93a8-d8f658ba024c",
+          "role": "user",
+          "content": "I've been feeling anxious lately",
+          "createdAt": "2026-04-25T11:39:47.356Z"
+        },
+        {
+          "id": "msg_c8f54949-f1a7-4f88-b236-5612682b34a5",
+          "role": "assistant",
+          "content": "If your thoughts are looping, try a “name it to tame it” moment: label what’s happening (e.g., “I’m having an anxious thought”), then ask, “What would I tell a friend in this situation?” We can take it one piece at a time.",
+          "createdAt": "2026-04-25T11:39:47.360Z"
+        }
+      ],
+      "createdAt": "2026-04-25T11:39:47.349Z",
+      "updatedAt": "2026-04-25T11:39:47.360Z"
+    },
+    {
+      "id": "chat_91219454-b961-49f1-96e2-668058097f32",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "title": "I'm having trouble sleeping",
+      "messages": [
+        {
+          "id": "msg_cccad9aa-0e29-4d68-b547-7eee9dc77dab",
+          "role": "user",
+          "content": "I'm having trouble sleeping",
+          "createdAt": "2026-04-25T11:40:03.234Z"
+        },
+        {
+          "id": "msg_e3606fa3-7165-4525-a3e3-2602b8b6a938",
+          "role": "assistant",
+          "content": "If you’re awake and frustrated, it can help to stop “trying” to sleep. Try a low-light reset: sit up, read something boring, or do a body scan for 5–10 minutes, then return to bed when you feel drowsy again.",
+          "createdAt": "2026-04-25T11:40:03.235Z"
+        },
+        {
+          "id": "msg_e363883a-2411-4fb1-b7ac-6730ecd8c27f",
+          "role": "user",
+          "content": "Body scan",
+          "createdAt": "2026-04-25T11:40:09.721Z"
+        },
+        {
+          "id": "msg_373f38bd-f916-49e1-ac1a-d067416b5367",
+          "role": "assistant",
+          "content": "You said: “Body scan”.\n\nThat sounds like a lot to hold. If you’re comfortable, what’s the hardest part of this right now—your thoughts, your emotions, or what’s happening around you?",
+          "createdAt": "2026-04-25T11:40:09.721Z"
+        },
+        {
+          "id": "msg_59c4c0f3-1583-4bf2-a7bc-387fadfa47cc",
+          "role": "user",
+          "content": "I feel overwhelmed with work",
+          "createdAt": "2026-04-25T11:40:17.665Z"
+        },
+        {
+          "id": "msg_0aec61cb-5182-407d-98ab-d7926f23e025",
+          "role": "assistant",
+          "content": "That level of stress can feel like carrying everything at once. If you can, pause for a moment: unclench your jaw, drop your shoulders, and take three slow breaths. Then choose one priority for today and let “good enough” be enough for the rest.",
+          "createdAt": "2026-04-25T11:40:17.667Z"
+        },
+        {
+          "id": "msg_36089af6-f227-4083-9a60-9a708b191cce",
+          "role": "user",
+          "content": "i am feeling tired",
+          "createdAt": "2026-04-25T11:40:48.176Z"
+        },
+        {
+          "id": "msg_57bc669f-d83d-440f-9949-8a6d364ac84e",
+          "role": "assistant",
+          "content": "You said: “i am feeling tired”.\n\nI’m here to support you. Thanks for sharing that with me. Can you tell me a bit more about what’s been going on and how it’s affecting your day?",
+          "createdAt": "2026-04-25T11:40:48.176Z"
+        },
+        {
+          "id": "msg_a9c0669d-1db7-4195-a748-41c07bc65ba9",
+          "role": "user",
+          "content": "sleeping issue",
+          "createdAt": "2026-04-25T11:41:25.077Z"
+        },
+        {
+          "id": "msg_0895cd70-bb5f-4e32-8c19-23a6afed3392",
+          "role": "assistant",
+          "content": "Racing thoughts at night are so common. A helpful trick is a quick “brain dump”: write the worries + one next step for tomorrow, then close the note. Would you like a simple 3-line template to do that?",
+          "createdAt": "2026-04-25T11:41:25.078Z"
+        },
+        {
+          "id": "msg_7ece966e-070f-404e-a57f-a5902cf301d3",
+          "role": "user",
+          "content": "3-line brain dump",
+          "createdAt": "2026-04-25T11:41:34.741Z"
+        },
+        {
+          "id": "msg_4f7c70f1-6285-40a5-a338-565e21cbc30b",
+          "role": "assistant",
+          "content": "You said: “3-line brain dump”.\n\nThanks for telling me. If you share one specific example of when this shows up, I can help you find a small next step that fits your situation.",
+          "createdAt": "2026-04-25T11:41:34.741Z"
+        }
+      ],
+      "createdAt": "2026-04-25T11:40:03.233Z",
+      "updatedAt": "2026-04-25T11:41:34.742Z"
+    },
+    {
+      "id": "chat_b3d3dfd4-0713-4bb4-a3a8-54d4ca413d8f",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "title": "i cant able to breath properly",
+      "messages": [
+        {
+          "id": "msg_9e2b0709-c3ca-453a-8f68-ae545f3dfc26",
+          "role": "user",
+          "content": "i cant able to breath properly",
+          "createdAt": "2026-04-25T12:12:37.487Z"
+        },
+        {
+          "id": "msg_8cab8612-83c0-4e88-a4a7-9652f5af44c5",
+          "role": "assistant",
+          "content": "You said: “i cant able to breath properly”.\n\nThat sounds like a lot to hold. If you’re comfortable, what’s the hardest part of this right now—your thoughts, your emotions, or what’s happening around you?",
+          "createdAt": "2026-04-25T12:12:37.488Z"
+        },
+        {
+          "id": "msg_fd27bfc7-3e47-4b85-ba01-a0981563c807",
+          "role": "user",
+          "content": "thoughts",
+          "createdAt": "2026-04-25T12:13:00.791Z"
+        },
+        {
+          "id": "msg_cb69833e-4c35-48fc-8aab-15ecfc44d7a0",
+          "role": "assistant",
+          "content": "You said: “thoughts”.\n\nI hear you. Before we problem-solve, do you want validation, practical steps, or just a space to vent?",
+          "createdAt": "2026-04-25T12:13:00.791Z"
+        }
+      ],
+      "createdAt": "2026-04-25T12:12:37.484Z",
+      "updatedAt": "2026-04-25T12:13:00.791Z"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "asm_fa170539-03e2-4f38-bd94-3e8a0b067afe",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "answers": [
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "score": 13,
+      "status": "critical",
+      "date": "2026-04-25T10:25:50.469Z",
+      "createdAt": "2026-04-25T10:25:50.469Z",
+      "updatedAt": "2026-04-25T10:25:50.469Z"
+    },
+    {
+      "id": "asm_e1702a80-5763-43c7-9459-f9a2ba613fd7",
+      "userId": "usr_5e484e8d-3979-4277-bf18-a75aa146c12d",
+      "answers": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "score": 20,
+      "status": "critical",
+      "date": "2026-04-25T10:27:53.826Z",
+      "createdAt": "2026-04-25T10:27:53.826Z",
+      "updatedAt": "2026-04-25T10:27:53.826Z"
+    },
+    {
+      "id": "asm_d974331e-3d43-4b7f-beb2-9ce15a1ed257",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "answers": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3
+      ],
+      "score": 28,
+      "status": "medium",
+      "date": "2026-04-25T10:51:46.267Z",
+      "createdAt": "2026-04-25T10:51:46.267Z",
+      "updatedAt": "2026-04-25T10:51:46.267Z"
+    },
+    {
+      "id": "asm_547779bc-f1dd-4be1-86b0-e761a57c97ad",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "answers": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "score": 13,
+      "status": "critical",
+      "possibleIssues": [
+        "Anxiety Disorders (GAD)",
+        "Panic Disorder",
+        "Bipolar Disorder",
+        "Post‑Traumatic Stress Disorder (PTSD)"
+      ],
+      "date": "2026-04-25T11:03:45.825Z",
+      "createdAt": "2026-04-25T11:03:45.825Z",
+      "updatedAt": "2026-04-25T11:03:45.825Z"
+    },
+    {
+      "id": "asm_b3bf2ed6-ed07-4057-8d88-fb150c23189e",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "answers": [
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "score": 15,
+      "status": "critical",
+      "possibleIssues": [
+        "Anxiety Disorders (GAD)",
+        "Panic Disorder",
+        "Bipolar Disorder",
+        "Post‑Traumatic Stress Disorder (PTSD)"
+      ],
+      "date": "2026-04-25T11:35:36.576Z",
+      "createdAt": "2026-04-25T11:35:36.576Z",
+      "updatedAt": "2026-04-25T11:35:36.576Z"
+    }
+  ],
+  "consultRequests": [
+    {
+      "id": "req_c06e6721-aeb6-4400-b178-06a49995c1b7",
+      "userId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+      "status": "accepted",
+      "consultantId": "usr_93066652-19fd-4ca6-9c2f-7bd2d05d68ae",
+      "createdAt": "2026-04-25T10:25:50.470Z",
+      "updatedAt": "2026-04-25T11:16:59.222Z",
+      "messages": [
+        {
+          "id": "crm_96506659-619a-4dab-8636-c084a1292726",
+          "senderRole": "user",
+          "senderId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+          "text": "what can i do next",
+          "createdAt": "2026-04-25T11:10:30.808Z"
+        },
+        {
+          "id": "crm_27bffb6d-8dc1-44da-9192-454629adf311",
+          "senderRole": "consultant",
+          "senderId": "usr_93066652-19fd-4ca6-9c2f-7bd2d05d68ae",
+          "text": "just stay relax",
+          "createdAt": "2026-04-25T11:12:12.201Z"
+        },
+        {
+          "id": "crm_bc7bd579-f43e-455d-ad93-1f2d7682d306",
+          "senderRole": "user",
+          "senderId": "usr_0968d1ee-2b61-4970-a407-37d233fbe52b",
+          "text": "okk",
+          "createdAt": "2026-04-25T11:13:58.159Z"
+        },
+        {
+          "id": "crm_a6892812-8efe-48a1-8c2f-dcc766616557",
+          "senderRole": "consultant",
+          "senderId": "usr_93066652-19fd-4ca6-9c2f-7bd2d05d68ae",
+          "text": "fill free to contact",
+          "createdAt": "2026-04-25T11:16:59.222Z"
+        }
+      ]
+    },
+    {
+      "id": "req_2b278560-8aec-4d95-b532-a4d44ef94393",
+      "userId": "usr_5e484e8d-3979-4277-bf18-a75aa146c12d",
+      "status": "completed",
+      "consultantId": "usr_93066652-19fd-4ca6-9c2f-7bd2d05d68ae",
+      "createdAt": "2026-04-25T10:27:53.827Z",
+      "updatedAt": "2026-04-25T11:05:08.051Z"
+    }
+  ]
+}

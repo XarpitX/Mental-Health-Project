@@ -1,0 +1,296 @@
+[
+  {
+    "id": "478-breathing",
+    "title": "4-7-8 Breathing",
+    "category": "breathing",
+    "duration": "5 min",
+    "difficulty": "Beginner",
+    "description": "A calming breathing pattern to settle stress and support sleep.",
+    "steps": [
+      "Sit comfortably and relax your shoulders.",
+      "Inhale through your nose for 4 seconds.",
+      "Hold your breath for 7 seconds.",
+      "Exhale slowly through your mouth for 8 seconds.",
+      "Repeat for 4–8 rounds."
+    ],
+    "tips": "If 4–7–8 feels intense, shorten counts (e.g., 3–5–6) and keep the exhale longest."
+  },
+  {
+    "id": "54321-grounding",
+    "title": "5-4-3-2-1 Grounding",
+    "category": "mindfulness",
+    "duration": "5 min",
+    "difficulty": "Beginner",
+    "description": "A quick grounding practice to reduce anxiety by engaging the senses.",
+    "steps": [
+      "Name 5 things you can see.",
+      "Name 4 things you can feel (touch).",
+      "Name 3 things you can hear.",
+      "Name 2 things you can smell.",
+      "Name 1 thing you can taste or like about this moment."
+    ],
+    "tips": "Say each item out loud if possible—hearing your voice can make it more grounding."
+  },
+  {
+    "id": "thought-challenging",
+    "title": "Thought Challenging",
+    "category": "cognitive",
+    "duration": "10 min",
+    "difficulty": "Intermediate",
+    "description": "Reframe an unhelpful thought by testing it like a hypothesis.",
+    "steps": [
+      "Write the thought exactly as it appears in your mind.",
+      "Label the feeling and rate intensity (0–10).",
+      "List evidence that supports the thought.",
+      "List evidence that does not support the thought.",
+      "Write a more balanced alternative thought.",
+      "Re-rate the feeling (0–10)."
+    ],
+    "tips": "Aim for ‘balanced and believable,’ not ‘perfectly positive.’"
+  },
+  {
+    "id": "gratitude-journal",
+    "title": "Gratitude Journaling",
+    "category": "mindfulness",
+    "duration": "5 min",
+    "difficulty": "Beginner",
+    "description": "A short journaling prompt to shift attention toward what’s working.",
+    "steps": [
+      "Write 3 specific things you appreciate today.",
+      "For each, add one sentence about why it mattered.",
+      "If you can, note one tiny action that helped it happen."
+    ],
+    "tips": "Specific beats big: ‘hot tea after work’ is more effective than ‘my life.’"
+  },
+  {
+    "id": "pmr",
+    "title": "Progressive Muscle Relaxation",
+    "category": "breathing",
+    "duration": "15 min",
+    "difficulty": "Intermediate",
+    "description": "Release physical tension by tensing and relaxing muscle groups from head to toe.",
+    "steps": [
+      "Start with 2 slow breaths.",
+      "Tense your feet for 5 seconds, then relax for 10 seconds.",
+      "Repeat for calves, thighs, glutes, abdomen, hands, arms, shoulders, jaw, and forehead.",
+      "Finish with 3 slow breaths and notice the difference."
+    ],
+    "tips": "Tense firmly but never to pain; the contrast is what teaches your body to relax."
+  },
+  {
+    "id": "box-breathing",
+    "title": "Box Breathing",
+    "category": "breathing",
+    "duration": "5 min",
+    "difficulty": "Beginner",
+    "description": "A steady 4-part breath to calm the nervous system and improve focus.",
+    "steps": [
+      "Inhale for 4 seconds.",
+      "Hold for 4 seconds.",
+      "Exhale for 4 seconds.",
+      "Hold for 4 seconds.",
+      "Repeat for 5 minutes."
+    ],
+    "tips": "Keep the breath quiet and gentle; imagine tracing the edges of a box."
+  },
+  {
+    "id": "pursed-lip-breathing",
+    "title": "Pursed-Lip Breathing",
+    "category": "breathing",
+    "duration": "3–5 min",
+    "difficulty": "Beginner",
+    "description": "Slow your exhale to reduce panic sensations and ease shortness of breath.",
+    "steps": [
+      "Inhale through your nose for 2 seconds.",
+      "Purse your lips as if blowing through a straw.",
+      "Exhale slowly for 4–6 seconds.",
+      "Repeat for 3–5 minutes."
+    ],
+    "tips": "Let the exhale be longer than the inhale—this is the calming lever."
+  },
+  {
+    "id": "body-scan",
+    "title": "Body Scan Meditation",
+    "category": "relaxation",
+    "duration": "10 min",
+    "difficulty": "Beginner",
+    "description": "A guided attention scan to reduce tension and reconnect with the body.",
+    "steps": [
+      "Lie down or sit comfortably and close your eyes.",
+      "Bring attention to your feet; notice sensations without changing them.",
+      "Slowly move attention upward: legs → hips → abdomen → chest → shoulders → arms → hands.",
+      "Notice jaw, face, and forehead; soften any tightness.",
+      "End with 3 slow breaths."
+    ],
+    "tips": "If your mind wanders, gently return to the last body area you remember."
+  },
+  {
+    "id": "mindful-walking",
+    "title": "Mindful Walking",
+    "category": "mindfulness",
+    "duration": "10 min",
+    "difficulty": "Beginner",
+    "description": "Turn a short walk into a grounding practice using sensation and attention.",
+    "steps": [
+      "Walk at a comfortable pace.",
+      "Notice contact: heel → midfoot → toes.",
+      "Feel the movement of your legs and arms.",
+      "Name 3 things you see, 2 you hear, 1 you feel each minute.",
+      "If thoughts arise, return attention to your steps."
+    ],
+    "tips": "Try one ‘silent minute’ where you only notice sensations, no judgments."
+  },
+  {
+    "id": "self-compassion-break",
+    "title": "Self-Compassion Break",
+    "category": "mindfulness",
+    "duration": "5 min",
+    "difficulty": "Beginner",
+    "description": "A quick practice to respond to stress with kindness instead of criticism.",
+    "steps": [
+      "Place a hand on your chest or cheek.",
+      "Say: ‘This is a tough moment.’",
+      "Say: ‘Tough moments are part of being human.’",
+      "Say: ‘May I be kind to myself right now.’",
+      "Choose one gentle next action (water, stretch, message a friend)."
+    ],
+    "tips": "Use your own words—what would you say to a friend in the same situation?"
+  },
+  {
+    "id": "positive-affirmations",
+    "title": "Positive Affirmations (Believable)",
+    "category": "cognitive",
+    "duration": "5 min",
+    "difficulty": "Beginner",
+    "description": "Create believable affirmations that reduce self-doubt and support action.",
+    "steps": [
+      "Write one worry or self-criticism you notice today.",
+      "Rewrite it into a balanced statement you can believe.",
+      "Repeat the balanced statement 5 times slowly.",
+      "Pick one small action that aligns with it."
+    ],
+    "tips": "Believable > perfect: ‘I’m learning’ works better than ‘I’m the best.’"
+  },
+  {
+    "id": "visualization-safe-place",
+    "title": "Visualization: Safe Place",
+    "category": "relaxation",
+    "duration": "7 min",
+    "difficulty": "Beginner",
+    "description": "Use mental imagery to create calm and reduce stress arousal.",
+    "steps": [
+      "Close your eyes and take 3 slow breaths.",
+      "Imagine a place that feels safe or peaceful.",
+      "Add details: light, colors, sounds, temperature, textures.",
+      "On each exhale, imagine releasing tension into the environment.",
+      "Open your eyes and name 3 things you notice around you."
+    ],
+    "tips": "If imagery is hard, use a real memory (a park, a room, a beach photo)."
+  },
+  {
+    "id": "worry-time",
+    "title": "Scheduled Worry Time",
+    "category": "cognitive",
+    "duration": "10 min",
+    "difficulty": "Intermediate",
+    "description": "Contain worry by giving it a scheduled slot instead of letting it spread all day.",
+    "steps": [
+      "Pick a daily 10-minute time window for worrying (same time each day).",
+      "When worry shows up earlier, write it down and say ‘Later.’",
+      "During worry time, read your list and worry on purpose.",
+      "Finish by writing one next-step for any item that has an action."
+    ],
+    "tips": "If you start worrying outside the window, redirect to the note—practice is the point."
+  },
+  {
+    "id": "thought-labeling",
+    "title": "Thought Labeling",
+    "category": "mindfulness",
+    "duration": "5 min",
+    "difficulty": "Beginner",
+    "description": "Reduce overthinking by labeling thoughts as mental events (not facts).",
+    "steps": [
+      "Sit and breathe naturally for 30 seconds.",
+      "When a thought appears, label it: ‘planning’, ‘worrying’, ‘judging’, ‘remembering’.",
+      "Return to the breath after each label.",
+      "Continue for 5 minutes."
+    ],
+    "tips": "Label gently; you’re not trying to stop thoughts—just change your relationship to them."
+  },
+  {
+    "id": "stress-release-writing",
+    "title": "Stress Release Writing",
+    "category": "journaling",
+    "duration": "10 min",
+    "difficulty": "Beginner",
+    "description": "Unload stress onto paper to reduce mental clutter and improve clarity.",
+    "steps": [
+      "Set a timer for 10 minutes.",
+      "Write continuously about what’s stressing you—no editing.",
+      "If you get stuck, write ‘I feel…’ and continue.",
+      "At the end, circle one sentence that feels most important."
+    ],
+    "tips": "You can destroy the page after—privacy often makes writing easier."
+  },
+  {
+    "id": "values-journaling",
+    "title": "Values Check-In",
+    "category": "journaling",
+    "duration": "8 min",
+    "difficulty": "Beginner",
+    "description": "Reconnect with what matters to guide your next small step.",
+    "steps": [
+      "Write 3 values that matter to you (e.g., growth, family, health).",
+      "Pick one value for today.",
+      "Write one small action you can do in the next 24 hours aligned with it.",
+      "Schedule it (time + place)."
+    ],
+    "tips": "Make the action tiny—values are practiced through small repeated moves."
+  },
+  {
+    "id": "digital-detox-break",
+    "title": "Digital Detox Break",
+    "category": "relaxation",
+    "duration": "10 min",
+    "difficulty": "Beginner",
+    "description": "A short reset to reduce overstimulation from screens and notifications.",
+    "steps": [
+      "Turn on Do Not Disturb for 10 minutes.",
+      "Put your phone face down or in another room.",
+      "Do one low-stimulation activity: stretch, tea, slow walk, or breathing.",
+      "Return and check notifications once, then close apps again."
+    ],
+    "tips": "Try pairing this with a specific trigger: after lunch or before bed."
+  },
+  {
+    "id": "mindful-sipping",
+    "title": "Mindful Sipping (Tea/Coffee/Water)",
+    "category": "mindfulness",
+    "duration": "3 min",
+    "difficulty": "Beginner",
+    "description": "A micro-practice to slow down using taste and temperature.",
+    "steps": [
+      "Take one slow sip.",
+      "Notice temperature and texture.",
+      "Notice taste and aftertaste.",
+      "Take 3 more sips with full attention."
+    ],
+    "tips": "If distractions come up, return to one sensation (warmth, sweetness, breath)."
+  },
+  {
+    "id": "name-the-feeling",
+    "title": "Name the Feeling",
+    "category": "cognitive",
+    "duration": "5 min",
+    "difficulty": "Beginner",
+    "description": "Increase emotional clarity by labeling and locating the emotion in the body.",
+    "steps": [
+      "Ask: ‘What am I feeling right now?’",
+      "Pick 1–2 labels (e.g., anxious, sad, frustrated).",
+      "Rate intensity 0–10.",
+      "Locate where you feel it (chest, throat, stomach).",
+      "Take 5 slow breaths and re-rate intensity."
+    ],
+    "tips": "If you can’t find a label, start with ‘pleasant / unpleasant / neutral’ and refine."
+  }
+]

@@ -1,0 +1,67 @@
+## MindCare — project requirements (checklist)
+
+This file is a **human-readable checklist** for what you need on your machine.  
+For **Python ML libraries** (mood NLP), use `backend/ml/requirements.txt` with `pip` (see README).
+
+---
+
+### Required (web app)
+
+- **Node.js**: 18+ (recommended 20+)
+- **npm**: included with Node.js
+
+Install and run from the **repository root**:
+
+```bash
+npm install
+npm run dev
+```
+
+- **Frontend**: `http://localhost:5173` (or next free port)
+- **Backend**: `http://localhost:5000` (see `backend/.env`)
+
+Frontend production build:
+
+```bash
+npm run build --prefix frontend
+```
+
+---
+
+### Optional — MongoDB
+
+Only if you set `DB_PROVIDER=mongo` in `backend/.env`:
+
+- **Docker Desktop** (Windows/macOS) or **Docker Engine** (Linux), or any MongoDB host you prefer
+- Scripts: `npm run db:up` / `npm run db:down` (see `docker-compose.yml`)
+
+Default is **file DB** (`backend/data/db.json`) — no Docker required.
+
+---
+
+### Optional — mood tracker NLP (Python)
+
+The mood tracker can classify journal text with a **local** model (TF-IDF + logistic regression). The web app stays Node.js; Python runs only when the API calls `backend/ml/predict.py`.
+
+- **Python**: 3.10+ recommended (3.12 works)
+- **Training data**: `mental_health_dataset.csv` at the **repo root** (already in the project)
+- **Python packages**: install from `backend/ml/requirements.txt` (pandas, scikit-learn, nltk, joblib)
+
+Suggested: create a **venv** at the repo root (example name `.venv-ml`), install there, then train:
+
+```powershell
+cd "path\to\medicare"
+python -m venv .venv-ml
+.\.venv-ml\Scripts\python.exe -m pip install -r backend\ml\requirements.txt
+.\.venv-ml\Scripts\python.exe backend\ml\train.py
+```
+
+This writes `backend/ml/mental_health_model.pkl`. The backend prefers `.venv-ml\Scripts\python.exe` (Windows) or `.venv-ml/bin/python3` (macOS/Linux) automatically when `MOOD_NLP_PYTHON` is unset.
+
+If NLP is missing or misconfigured, the API falls back to **keyword** hints for journal text.
+
+---
+
+### Environment files
+
+- **`backend/.env`**: `PORT`, `JWT_SECRET`, `FRONTEND_ORIGIN`, optional `DB_PROVIDER` / `MONGODB_URI`, optional `MOOD_NLP_PYTHON` (full path to `python` if auto-detection fails)

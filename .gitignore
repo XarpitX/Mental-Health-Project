@@ -1,0 +1,7 @@
+node_modules/
+.venv-ml/
+.env
+__pycache__/
+dist/
+build/
+.vscode/
